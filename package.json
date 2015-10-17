@@ -1,6 +1,6 @@
 {
   "name": "vtag",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Virtual tags for virtual DOM.",
   "main": "index.js",
   "scripts": {
