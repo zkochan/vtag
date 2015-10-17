@@ -4,7 +4,7 @@
   "description": "Virtual tags for virtual DOM.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,11 @@
   "homepage": "https://github.com/zkochan/vtag#readme",
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "vdom-to-html": "^2.1.1",
+    "virtual-dom": "^2.1.1"
   }
 }
