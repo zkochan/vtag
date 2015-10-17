@@ -45,4 +45,12 @@ describe('vtag', function() {
       expect(html).to.eq('<script async src="/foo.js"></script>');
     });
   });
+
+  describe('meta charset', function() {
+    it('should create correct tag', function() {
+      var vtree = vtag.meta.charset('utf-8');
+      var html = toHTML(vtree);
+      expect(html).to.eq('<meta charset="utf-8">');
+    });
+  });
 });

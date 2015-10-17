@@ -32,5 +32,8 @@
     "mocha": "^2.3.3",
     "vdom-to-html": "^2.1.1",
     "virtual-dom": "^2.1.1"
+  },
+  "dependencies": {
+    "ramda": "^0.18.0"
   }
 }
